@@ -1,6 +1,6 @@
 # karaf dockerfile
 FROM alpine:latest
-MAINTAINER jurica.borozan@bspayone.com
+MAINTAINER julia.faifer@web.de
 RUN apk add --no-cache maven wget
 ENV JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk
 RUN mkdir -p /opt
